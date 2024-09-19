@@ -87,4 +87,4 @@ with st.form("filter_form"):
         else:
             st.warning("No data found in the selected collection or with the specified filter.")
 
-st.caption("Developed with ❤️ using Streamlit")
+st.caption("🌍 github.com/0xZee/")
