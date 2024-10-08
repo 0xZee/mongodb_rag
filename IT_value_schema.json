@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "_id": {
+        "type": "integer"
+      },
+      "Mon_role": {
+        "type": "string"
+      },
+      "time_slot": {
+        "type": "string"
+      },
+      "Creneau MEP": {
+        "type": "string",
+        "pattern": "^\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2} \\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2}$"
+      },
+      "Ref_MEP": {
+        "type": "string",
+        "pattern": "^MEP_\\d+$"
+      },
+      "Statut_MEP": {
+        "type": "string"
+      },
+      "operation_notice_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "operation_end_report_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "post_operation_report_date": {
+        "type": "string"
+      },
+      "application": {
+        "type": "string"
+      },
+      "operation_title": {
+        "type": "string"
+      },
+      "service_impact": {
+        "type": "string"
+      },
+      "Preparateur MEP": {
+        "type": "string",
+        "pattern": "^user_\\d+$"
+      },
+      "operation_owner": {
+        "type": "string",
+        "pattern": "^user_\\d+$"
+      },
+      "Ref_Projet": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "_id",
+      "Mon_role",
+      "time_slot",
+      "Creneau MEP",
+      "Ref_MEP",
+      "Statut_MEP",
+      "operation_notice_date",
+      "operation_end_report_date",
+      "post_operation_report_date",
+      "application",
+      "operation_title",
+      "service_impact",
+      "Preparateur MEP",
+      "operation_owner",
+      "Ref_Projet"
+    ]
+  }
+}
