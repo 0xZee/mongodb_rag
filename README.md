@@ -1,4 +1,4 @@
-# ChatBot
+# 🤖 ChatBot
 Streamlit ChatBot app to RAG into MongoDB Atlas :
 - Inference & LLM : `Groq Inference`, Model : `llama3.2 3b`
 - Embeddings : `Cohere`
@@ -11,7 +11,12 @@ streamlit run app.py
 
 ![Mongodb RAG ChatBot App](gamma_bot.png)
 
-# mongodb Dashboard
+# 📊 mongodb Dashboard
 Streamlit ChatBot app to RAG into MongoDB Atlas
+
+```python
+pip install -r requirements.txt
+streamlit run mongo_dashboard.py
+```
 
 ![Mongodb App Dashboard](sc_mdb.JPG)
