@@ -13,13 +13,6 @@ streamlit run app.py
 
 # ⌨ APP DOCKERFILE : 
 To build the App from Dockerfile
-```python
-pip install -r requirements.txt
-streamlit run mongo_dashboard.py
-```
-
-# 📊 mongodb Dashboard
-Streamlit ChatBot app to RAG into MongoDB Atlas
 
 ```bash
 docker build -t mongodb-rag-app .
@@ -29,5 +22,8 @@ docker run -p 8501:8501 \
     -e MONGO_URI=your_mongodb_connection_string \
     mongodb-rag-app
 ```
+
+# 📊 mongodb Dashboard
+Streamlit ChatBot app to RAG into MongoDB Atlas
 
 ![Mongodb App Dashboard](sc_mdb.JPG)
