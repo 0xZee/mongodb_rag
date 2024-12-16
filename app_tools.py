@@ -139,7 +139,7 @@ class RagEngine:
         chat_engine_params = {
             "chat_mode": "condense_plus_context",
             "similarity_top_k": 11,
-            "vector_store_query_mode": "hybrid",
+            "vector_store_query_mode": "default",
             "memory": self.memory,
             "verbose": True,
             "context_prompt": PROMPT_STX
